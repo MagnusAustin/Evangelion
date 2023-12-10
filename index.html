@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap" rel="stylesheet">
   </head>
-  <body style="background-color: #010101; color: white">
+  <body class="" style="background-color: #010101; color: white; font-family: 'Kalnia', serif;">
     <header>
       <nav class="grid grid-cols-2 justify-items-stretch">
         <!-- Your logo or icon goes here -->
         <img src="logo_nav.JPG" class="w-48 p-5" alt="Website Logo" />
 
         <div class="flex flex-row-reverse items-center gap-5 pr-10">
-          <a href="#home">Home</a>
-          <a href="#evaprofiles">Eva Profiles</a>
-          <a href="#forum">Pilot Profiles</a>
+          <a href="#forum" class="hover:text-red-400 hover:underline decoration-orange-400">Pilot Profiles</a>
+          <a href="#evaprofiles" class="hover:text-purple-400 hover:underline decoration-green-400">Eva Profiles</a>
+          <a href="#home" class="hover:text-blue-400 hover:underline decoration-purple-400" >Home</a>
           <!-- Add more links as needed -->
         </div>
       </nav>
@@ -26,7 +29,7 @@
       <div class="p-10 pt-5 grid grid-cols-3 gap-32">
         <!-- EVA-00 -->
         <a href=""
-          ><div class="">
+          ><div class="w-fit">
             <img src="eva-00.jpg" class="w-fit pb-2" alt="" />
             <p>
               Characteristics: Blue and purple color scheme. Initially
@@ -40,9 +43,9 @@
         >
 
         <!-- EVA-01 -->
-        <a href=""><div class="">
+        <a href=""><div class="w-fit">
           <img src="eva-01.jpg" class="w-fit pb-2" alt="" />
-          <p>
+          <p class="">
             Characteristics: Purple and green color scheme. Iconic and often
             considered the series' mascot.
           </p>
@@ -53,7 +56,7 @@
         </div></a>
 
         <!-- EVA-02 -->
-        <a href=""><div class="">
+        <a href=""><div class="w-fit">
           <img src="eva-02.jpg" class="w-fit pb-2" alt="" />
           <p>
             Characteristics: Red and orange color scheme. Customized for
@@ -76,12 +79,15 @@
           <hr class="p-2">
           <p>Age: 14</p>
         <p>Profession: Student</p>
-        <p>
+        <p class="pb-7">
            Background: Shinji is the main protagonist and the pilot of Eva Unit-01. 
            He initially struggles with self-worth and feelings of isolation. Throughout the series, Shinji undergoes 
            significant character development as he grapples with the responsibilities and emotional toll of being an 
            Evangelion pilot.
         </p>
+        <a href="shinji.html" class="border border-white p-5 hover:border-purple-400 hover:text-green-400">
+          Read More
+        </a>
         </div>
       </div>
       <br>
@@ -94,11 +100,14 @@
           <hr class="p-2">
           <p>Age: 14</p>
         <p>Profession: Student</p>
-        <p>
+        <p class="pb-7">
            Background: Rei is the pilot of Eva Unit-00. She is mysterious and enigmatic, with a deep connection to 
            the Eva series. Rei's stoic demeanor and unique role in the narrative contribute to the intrigue 
            surrounding her character.
         </p>
+        <a href="" class="border border-white p-5 hover:border-blue-400 hover:text-purple-400">
+          Read More
+        </a>
         </div>
       </div>
       <br>
@@ -111,11 +120,14 @@
           <hr class="p-2">
           <p>Age: 14</p>
         <p>Profession: Student, later UN Military Officer</p>
-        <p>
+        <p class="pb-7">
            Background: Asuka pilots Eva Unit-02 and is known for her brash and confident personality. With a complex 
            background and psychological struggles, Asuka's character adds depth to the series. Her interactions with 
            other characters and battles with Angels are central to the plot.
         </p>
+        <a href="" class="border border-white p-5 hover:border-red-400 hover:text-orange-400">
+          Read More
+        </a>
         </div>
       </div>
 
@@ -135,10 +147,10 @@
         </div>
         <div class="p-5 pt-0 flex justify-center items-center gap-5">
           <!-- Your social media icons or links go here -->
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
-          <a href=""><i class="fa-brands fa-discord"></i></a>
+          <a href=""><i class="fa-brands fa-github hover:text-slate-400"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin hover:text-blue-400"></i></a>
+          <a href=""><i class="fa-brands fa-twitter hover:text-blue-400"></i></a>
+          <a href=""><i class="fa-brands fa-discord hover:text-purple-400"></i></a>
 
           <!-- Add more social media icons as needed -->
         </div>
